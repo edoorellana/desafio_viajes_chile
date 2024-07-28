@@ -12,6 +12,20 @@ $(function () {
     $('#contacto').click(function(){
         alert("Que esperas para vivir una nueva experiencia?")
     });
+
+    $('.titulo1').click(function(){
+        $('.texto1').toggle();
+    });
+    $('.titulo2').click(function(){
+        $('.texto2').toggle();
+    });
+    $('.titulo3').click(function(){
+        $('.texto3').toggle();
+    });
+
+    $('.titulo4').click(function(){
+        $('.texto4').toggle();
+    })
  
   })
 
