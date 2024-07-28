@@ -1,0 +1,82 @@
+/* Estilos generales */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Cabin", sans-serif;
+  color: white;
+  background-color: black;
+}
+
+body hr {
+  border: 1px solid #56C0E0;
+}
+
+/* Navegación */
+.navbar {
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.navbar-brand img {
+  height: 40px; /* Ajusta la altura del logo si usas una imagen */
+}
+
+.navbar-brand {
+  font-family: 'Cabin', sans-serif; 
+  font-weight: 400; 
+  font-size: 20pt; 
+  color: white;
+}
+
+.navbar .nav-link {
+  color: white !important;
+}
+
+/* Tarjetas */
+.card-body {
+  background-color: #56C0E0;
+}
+
+.card-img-top {
+  height: 150px; /* Ajusta la altura según tus necesidades */
+  object-fit: cover; /* Mantiene la proporción de la imagen y la recorta si es necesario */
+}
+
+/* Parrafos */
+.parrafos {
+  text-align: justify;
+}
+
+/* Iconos */
+.fa-plane, .fa-anchor, .fa-bus {
+  color: white;
+  background-color: #1798c1;
+  font-size: 150%;
+  margin: 0 auto;
+  margin-right: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Footer */
+footer {
+  background-color: #56C0E0;
+  color: white;
+  text-align: start;
+  padding: 18px;
+}
+
+i {
+  font-size: 30px;
+}
+
+footer h3 {
+  font-family: 'Cabin', sans-serif; 
+  font-weight: 100; 
+  font-size: 15pt; 
+}
