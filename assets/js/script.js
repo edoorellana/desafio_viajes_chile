@@ -26,6 +26,19 @@ $(function () {
     $('.titulo4').click(function(){
         $('.texto4').toggle();
     })
+
+    $(".ocultar-mostrar").click(function(){
+        $(".ocultar-mostrar").slideToggle(1500); 
+        $(".ocultar-mostrar").toggle('show');
+    });
+    $(".ocultar-mostrar2").click(function(){
+        $(".ocultar-mostrar2").slideToggle(1500); 
+        $(".ocultar-mostrar2").toggle('show');
+    });
+    $(".ocultar-mostrar3").click(function(){
+        $(".ocultar-mostrar3").slideToggle(1500); 
+        $(".ocultar-mostrar3").toggle('show');
+    });
  
   })
 
